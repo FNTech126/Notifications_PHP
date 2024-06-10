@@ -1,0 +1,12 @@
+<?php
+
+require 'notify.php';
+
+$userId = 1;
+$email = 'client@example.com';
+$phone = '+1234567890';
+$message = 'Your case status has been updated. Please check the portal for more information on your case.'
+
+notifyUser($userId, $email, $phone, $message);
+
+?>
